@@ -1,9 +1,13 @@
 
 
-const Error = () => {
+const Error = ( message ) => {
   return (
-    <div>Error</div>
-  )
-}
+    <div className="bg-red-500 h-fit rounded p-4 flex flex-col gap-5 mt-44 mx-auto">
+      <p>Üzgünüz bir hata oluştu daha sonra tekrar deneyeniz</p>
 
-export default Error
+      <h2 className="font-semibold">{message}</h2>
+      </div>
+  );
+};
+
+export default Error;
