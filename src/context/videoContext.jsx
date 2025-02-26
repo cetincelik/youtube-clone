@@ -5,7 +5,7 @@ import { categories } from './../utils/constants';
 
 export const VideoContext = createContext();
 
-export const VideoProvider = ( children ) => {
+export const VideoProvider = ( {children} ) => {
     const [category, setCategory] = useState(categories[0]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);

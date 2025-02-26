@@ -1,7 +1,7 @@
 import { FaUserCircle } from "react-icons/fa";
 
 
-const Loader = (spinner) => {
+const Loader = ({spinner}) => {
   const arr = new Array(20).fill("selam");
 
   if (spinner)
