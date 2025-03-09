@@ -19,9 +19,8 @@ Bu proje, YouTube'un temel işlevselliğini taklit eden bir React uygulamasıdı
 
 Aşağıda, uygulamanın nasıl çalıştığını gösteren bir video bulunmaktadır:
 
-![YouTube Clone](./src/assets/demo.gif)
+![YouTube Clone](./src/assets/demo.mkv)
 
-> **Not**: `demo.mkv` dosyasını `src/assets` klasörüne koymayı unutma!
 
 ---
 
@@ -37,7 +36,13 @@ Aşağıda, uygulamanın nasıl çalıştığını gösteren bir video bulunmakt
 
 ---
 
-## 🔍 Alternatif Arama Çözümü
+## 🌐 Canlı Demo
+
+[YouTube Clone Projesi](https://youtube-clone0000.netlify.app/)
+
+---
+
+<!-- ## 🔍 Alternatif Arama Çözümü
 
 ```js
 let params = {
@@ -72,3 +77,4 @@ const handleClick = () => {
       .finally(() => setSpinnerLoading(false));
 };
 ```
+-->
