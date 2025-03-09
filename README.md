@@ -19,7 +19,7 @@ Bu proje, YouTube'un temel işlevselliğini taklit eden bir React uygulamasıdı
 
 Aşağıda, uygulamanın nasıl çalıştığını gösteren bir video bulunmaktadır:
 
-![YouTube Clone](./src/assets/demo.mkv)
+![YouTube Clone](./src/assets/demo.gif)
 
 > **Not**: `demo.mkv` dosyasını `src/assets` klasörüne koymayı unutma!
 
